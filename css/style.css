@@ -1,0 +1,36 @@
+.modals
+{
+    position: fixed;
+    background: rgba(0,0,0,.4);
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:100;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    width:50%;
+    min-height: 500px;
+    background: #fff;
+    padding:40px;
+}
+form input
+{
+    border:1px solid #ccc;
+}
+textarea
+{
+    resize: none;
+}
+form .btn
+{
+    width:100%;
+    border:0;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+}
